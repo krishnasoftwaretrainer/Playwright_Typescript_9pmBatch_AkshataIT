@@ -1,0 +1,192 @@
+Krishna 15+ M ATE API DB 
+
+Automation Testing:
+---------------
+To test the app by using automation tools.
+
+Both:Reusability
+
+TC1:VU VP C F E W M  CI/CD 
+CLICK/Run
+
+Regression Testing:WhatsUP:Msg V1 V2 Status 
+
+Functional Automation Testing:
+-----
+Selenium and Playwright:
+
+2G/3G/4G/5G:
+
+Selenium:30% Java 
+Playwright:100% Locators Methods TS 
+
+C C++ Java Python .net JS TS etc..
+
+Playwright is an automation tool, to perform functional and api testing.
+
+Flaky Testing:
+
+Web App:
+
+TC1:C:2Min MFF ME Safari Opera W M 
+
+ID Name CLass Tag XPath CSS 
+
+Built-in Auto Retry 
+
+Automation Tool:PlayWright
+Basic Concepts + FrameWorks 
+Data Driven
+Hybrid
+POM 
+BDD-Cucumber 
+Programming Language:JS/TS 
+Basic Concepts+OOPS Concepts 
+Project:End-To-End
+E-Commerce:SP R L C P OH Track LO 
+
+Git and Github CI/CD:J GA 
+AI MCP 
+
+Good Evening all of you...
+Today Session will starts with in few minutes...
+
+Automation Testing Session
+Playwright with JS/TS:
+----------------------
+Software Test Engineer:Manual + Automation
+
+ATE/SDET:Software Development Engineer in Testing.
+
+To convert manual testcases into automation script.
+
+100TC:95P 5F 
+
+Requirement Analysis
+
+TypeScript Concepts + Playwright Concepts 
+
+Library:Run/Excutes
+
+Manual
+TC1:SwagLabs Valid Login:Test Steps 
+Enter URL:https://www.saucedemo.com/
+Enter Valid UserName:standard_user
+Enter valid Password:secret_sauce
+Click on Login Button
+
+ER:Should open Products Page/Inventory.
+AR:As excepted 
+
+TC2:SwagLabs InValid Login:Test Steps 
+Enter URL:https://www.saucedemo.com/
+Enter Valid InvalidUserName:ggdf
+Enter valid InValidPassword:fadfdf
+Click on Login Button
+
+ER:Should display error message.
+AR:As excepted
+
+git Commands 
+Github
+
+Compare the excepted and actuval results, if both are same mark it as Pass otherwise mark it as Fail. 
+
+Pass
+
+Automation Tool:Playwright
+Programming Language:TypeScript
+Node JS[NPM]
+IDE:VS-Code Editor
+
+Playwright with JavaScript/TypeScript:
+-----------------------------------
+Programming Language:
+1.To develop different types of app.
+2.To automate web app.
+
+Automation Script=PC+TC[OOPS]
+
+1.Re-Usability/Duplication
+2.Readability
+3.Security
+
+Type Script:Basic Concepts+OOPS Concepts
+
+let a=10; JS  10 
+	a='10';  10 Compilation
+
+let a:number=10; TS 
+		a='10'; String  Error Compilation
+
+Create File:js/ts filename.extension add.js add.ts 
+Compilation:Compilers:Syntax Error
+add.ts :SourceCode
+add.js :Executable Code:OutPut
+.js file 
+
+WhatsUP.ts:SourceCode:
+Customer:WhatsUP.js:1k 
+
+HTML CSS JS 
+
+Node JS:Environment
+https://nodejs.org/en/download
+
+VS Code:IDE/Editor 
+https://code.visualstudio.com/download?_exp_download=d53503e735
+
+TypeScript:PL 
+
+
+.js not required compilation 
+VS-Code and Browser
+
+Compile Time:tsc filename.ts[%G]  
+Run Time:node filename.js [4G]
+.ts compilation
+Error Checking , it generating .js 
+
+Dynamic Typing:JS 
+let a=10; Number
+let b='20'; String
+let c=a+b; 1020
+Strict Typing
+------------
+Static Typing:TS 
+let a:number=10;
+let b:string='20';
+let c:number=a+b;
+
+Variables and DataTypes:
+----------------------
+Container[Memory]
+Store/Hold the values.
+
+let a=20;
+Here a is an variable[Memory location name/address]
+
+Name 
+Index:0[Zero] to n-1 
+Memory Address:
+
+Normal Variable:
+a=10;
+a=20;
+
+Array Variable
+a[]=[10,20,30,40]
+
+Values=data 
+
+1.Primitive
+Number 
+String
+Boolean
+
+Scope:var let const
+
+2.Non-Primitive
+Array
+String
+OOPS
