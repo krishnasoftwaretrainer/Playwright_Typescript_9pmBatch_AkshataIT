@@ -190,3 +190,53 @@ Scope:var let const
 Array
 String
 OOPS
+
+Variables and DataTypes:
+----------------------
+Container[Memory] Stored and Retrieve
+Store/Hold the values.
+
+let a=20,b=10; a+b 
+Here a is an variable[Memory location name/address]
+
+Name 
+Index:0[Zero] to n-1 
+Memory Address:
+
+Normal Variable:
+a=10;
+a=20;
+
+Array Variable
+a[]=[10,20,30,40]
+
+Syntax: 
+KeyWord variablename=Value; ->JS 
+KeyWord variablename:datatype=Value; ->TS 
+
+var let const 
+we are declaring variables into different scopes.
+Global Scope:If you declare any variable outside function or block(if).
+Re-Declaration and Re-Initialisation is possible.
+
+
+Function Scope:If you declare any variable inside function.
+Block Scope:If you declare any variable inside block(if).
+
+Declaration and Initialization
+Re-Declaration
+Re-Initialisation
+
+Values=data 
+
+1.Primitive
+Number 
+String
+Boolean
+
+Scope:var let const
+
+2.Non-Primitive
+Array
+String
+OOPS
