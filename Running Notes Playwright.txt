@@ -240,3 +240,99 @@ Scope:var let const
 Array
 String
 OOPS
+
+Typescript Tokens:
+-----------------
+Key Words: let var const number string Boolean if for while function extends 
+Pre-define Library Built in Case Sensitive 
+
+Identifiers: User defined num1=10   function fun1() class Sample
+Rules: Should not start with digit or SS
+
+Variables 
+
+
+Data Types 
+
+Constants: const pie=3.14;
+
+Literals: let a:number=22; Here a is variable/identifier and 22 value/literal 
+
+Comments in TS 
+Errors in TS 
+Operators in TS 
+
+Control Flow statements in Js/TS 
+Conditional Statements: if[simple if, if else, else if, nested if] switch 
+Looping Statements: for while do-while nested loops 
+Jumping Statements: break continue return 
+
+Arrays
+Strings 
+Functions 
+OOPS Concepts:
+Methods 
+Constructors
+Inherence
+Polymorphism[MOL,MOR]
+Data Abstraction
+Interface[TS]
+Encapsulation
+Exception Handling
+
+
+Comments in TypeScript:
+--------------------
+To convert excutable statements into non-excutable.
+
+Single Line:// 
+Multi Line:/*  */
+
+Errors:
+------
+1.CompileTime or Syntax Errors
+2.RunTime or Exceptions 
+3.Logical Errors
+a=3,b=2 a-b ER:5 AR:1
+
+InValid UserName and InValid Pwd:Error Message
+Opened 
+
+Operators in TS:
+--------------
+Symbol , 
+To perform operations on variables or values. 
+a+b  5>3
+
+1.Arthematic:+ - * / % 
+Input:Plain Numbers or Point Values 
+OutPut:Plain Numbers or Point Values
+
+2.Relational:< > <= >= == !=
+Input:Plain Numbers or Point Values 
+OutPut:Boolean:true or false 
+
+< < OR = > > OR =
+
+50>=50:50>50 or 50==50:True 
+		False	or True: True
+
+3.Logical Operators: AND OR NOT 
+Input:Boolean:true or false 
+OutPut:Boolean:true or false 
+
+Truth Table:
+---------
+Input1	Input2	 AND(&&) OR(||) NOT(!) 
+------------------------------------
+True	True	True	True	False
+
+True 	False	False	True
+
+False	True	False	True
+
+False	False	False	False	True
+
+4.Assignment Operators
+5.Unary Operators
+6.Ternary Operators
