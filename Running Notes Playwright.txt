@@ -333,6 +333,70 @@ False	True	False	True
 
 False	False	False	False	True
 
-4.Assignment Operators
-5.Unary Operators
-6.Ternary Operators
+4.Assignment Operators:
+= += -= *= /= %=
+
+let a=10,b;
+b=a+5;
+b=10+5;
+b=15;
+------------
+let b=10; Normal
+b+=5;
+b=b+5;
+b=10+5;
+b=15;
+
+5.Unary Operators:
+------
++ - 
+
+Increment:++ +1 a=10 a++; a=11
+A.Pre-Increment:++a Print:11 Update a=11
+B.Post-Increment:b++ Print:10 Increment Update b=11
+
+Decrement:-- -1 b=10;b--; b=9
+C.Pre-Decrement:--c Decrement:9 Print:9 Update:9 
+D.Post-Decrement:d-- Print:10 Decrement:9 Update:9
+
+6.Ternary Operators:
+------------------
+? :
+
+Control Flow Statements in Java:
+-------------------
+Sequential Flow
+Conditional Flow:true/false
+True:TBS 
+False:FBS 
+
+Definition
+Syntax
+FlowChart
+Explanation
+Example Program  
+
+1.Conditions:
+--------
+A.if()
+---
+a.simple-if(): Pass[TBS] or Null[Blank]
+ 
+b.if-else():Pass[TBS] or Fail[FBS]
+
+
+c.else-if() or ladder-if()
+d.nested-if()
+
+B.switch()
+
+2.Looping:
+a.for()
+b.while()
+c.do-while()
+d.nested loops
+
+3.Jumping
+-------
+break
+continue
