@@ -361,7 +361,9 @@ D.Post-Decrement:d-- Print:10 Decrement:9 Update:9
 
 6.Ternary Operators:
 ------------------
-? :
+? : ->if-else
+
+marks=55; Pass/Fail 
 
 Control Flow Statements in Java:
 -------------------
@@ -381,12 +383,69 @@ Example Program
 A.if()
 ---
 a.simple-if(): Pass[TBS] or Null[Blank]
- 
+Syntax:
+------
+if(Condition) T/F  55>=35 25>=35
+{
+Body; TBS Pass 
+}
+Null 
+
+
 b.if-else():Pass[TBS] or Fail[FBS]
+Syntax:
+-----
+if(Condition) T/F  55>=35 25>=35
+{
+Body; TBS Pass 
+}
+else
+{
+Body; FBS;
+}
 
 
-c.else-if() or ladder-if()
-d.nested-if()
+c.else-if() or ladder-if():
+------------
+A B C D Pass Fail 
+Syntax:
+-------
+if(Condition)
+{
+Body;TBS;
+}
+else if(Condition)
+{
+TBS;
+}
+else if(Condition)
+{
+TBS;
+}
+else 
+{
+FBS;
+}
+
+d.nested-if():
+-----------
+Syntax:
+-----
+if(Condition-1)Outer  T T 
+{
+if(Condition-2)Inner  T F 
+{
+TBS;
+}
+else
+{
+FBS; Inner
+}
+}
+else Outer 
+{
+FBS;
+}
 
 B.switch()
 
