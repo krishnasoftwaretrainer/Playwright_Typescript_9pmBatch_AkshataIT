@@ -448,12 +448,80 @@ FBS;
 }
 
 B.switch()
+----------
+Input:'a'
+switch(Compare)
+{
+case 'b':
+{
+Body;
+break;
+}
+case 'c':
+{
+Body;
+break;
+}
+default :
+{
+FBS;
+}
 
-2.Looping:
-a.for()
-b.while()
-c.do-while()
-d.nested loops
+2.Looping/Iterative:
+Known Iteration Loops/Fixed Length:9 for 
+Un-Known Iteration Loops:9 20 50 while
+Infinite Loop 
+Bank Employee:9am to 5pm 
+ATM:24/7 365  
+ 
+a.for():
+Syntax:
+-------
+for(InitialValue;Condition;Increment/Decrement)
+{
+Body;
+}
+
+b.while():
+-------
+Syntax:
+-----
+while(true)
+{
+Body;
+}
+Entry:for while
+Exit:do-while
+
+c.do-while():
+---------
+Syntax:
+-----
+InitialValue; 1
+do 
+{
+Body; 1
+Increment/Decrement;
+}while(Condition);
+
+d.nested for loops
+----------
+for()
+{
+for()
+{
+Body;
+}
+}
+
+Patterns:
+--------
+1	2	3	4	5
+1	2	3	4	5
+1	2	3	4	5
+1	2	3	4	5
+1	2	3	4	5
+
 
 3.Jumping
 -------
