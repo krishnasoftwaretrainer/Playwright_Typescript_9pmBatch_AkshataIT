@@ -525,5 +525,43 @@ Patterns:
 
 3.Jumping
 -------
-break
-continue
+break:Stop 
+A 'break' statement can only be used within an enclosing iteration or switch statement.
+
+It stops the execution immediately 
+
+continue:Stop 
+A 'continue' statement can only be used within an enclosing iteration statement.
+
+Arrays in JS/TS:
+--------------
+let a:number=10;
+let b='20';
+
+a is an normal variable.At a time it can hold only single value.
+
+let htno1:number=101; 100Students 
+let htno2:number=101;
+
+Array variable at a time can hold more than one value[Non-Primitive].
+
+Syntax: 
+let htno[]:number=['101',102,103];
+
+let snames[]:string=['','','',true];
+
+let sdetails[]:any=['101','Krishna','true'];
+
+1.Single or One Dimension Array:SR MC or MR SC 
+2.Two or Double Dimension Array
+
+Index Values:0 to n-1 
+
+2Ponits
+print and println 
+
+console
+
+Strings:
+------
+'' "" ``
