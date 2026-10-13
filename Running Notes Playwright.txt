@@ -561,7 +561,105 @@ Index Values:0 to n-1
 print and println 
 
 console
+Arrays in JS/TS:
+--------------
+let a:number=10;
+let b='20';
 
-Strings:
-------
+a is an normal variable.At a time it can hold only single value.
+
+let htno1:number=101; 100Students 
+let htno2:number=101;
+
+Array variable at a time can hold more than one value[Non-Primitive].
+
+Syntax: 
+let htno[]:number=['101',102,103];
+
+let snames[]:string=['','','',true];
+
+let sdetails[]:any=['101','Krishna','true'];
+
+1.Single or One Dimension Array:SR MC or MR SC 
+2.Two or Double Dimension Array
+
+Index Values:0 to n-1 
+
+2Ponits
+print and println 
+
+console
+
+Strings:Collection of Characters 
+------String
 '' "" ``
+
+OOPS:
+-----
+Re-Usability:Body/Script
+Readability: { }
+Security:
+
+class and object
+
+Vehicle:Class Mango:Object 
+
+Fruit:Class Lorry:Object 
+
+Methods or Functions:
+------------------
+Block of Code or Set of Statements 
+{ Body  }
+Cal the method?
+Basic Concepts + OOPS Concepts
+
+Static:static ClassName.MethodName() 
+Non-Static or Instance:Object
+Syntax:KeyWord objname=new ClassName();
+				objname.MethodName();
+Method Signature or Syntax:
+-----------
+class classname
+{
+Accessspecifier static MethodName(Parameters):Returntype
+{
+Body;
+}
+}
+Cal Method/Execution 
+
+Accessspecifier:public private protected
+
+file1.ts class1 method1 class2 Reuse
+file2.ts class3 Reuse  import class1
+
+Same Class and Same File 
+Different Class and Same File
+Different class and Different File 
+
+ User-Define Methods:
+ -------
+ 1.Without Parameters and Without Returntype
+ public addition():void
+ 
+ 2.Without Parameters and With Returntype
+ public addition():number
+ return value;
+ 
+ 3.With Parameters and Without Returntype
+ public addition(let a:number,let b:number):void
+ 
+ 4.With Parameters and With Returntype
+public addition(let a:number,let b:number):number
+return value;
+
+Constructors:
+
+Inheritance
+Polymorphism:MOL & MOR 
+Data Abstraction:abstract methods 
+Interface
+Encapsulation
+Exception Handling
+
+PlayWright
