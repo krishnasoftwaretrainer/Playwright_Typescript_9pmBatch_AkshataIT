@@ -663,3 +663,67 @@ Encapsulation
 Exception Handling
 
 PlayWright
+
+Constructors:Instance
+Constructor is not required calling.
+When ever creating the object for class now constructor is automatically executed.
+In one class you can declare only one constructor.
+Constructor declaring by using the keyword is constructor.
+In one class you can create only one constructor and remaining more than one methods.
+Two types
+In Constructors we are using this keyword to cal methods.
+1.With Parameters
+2.Without Parameters
+
+
+
+
+Inheritance
+Polymorphism:MOL & MOR 
+Data Abstraction:abstract methods 
+Interface
+Encapsulation
+Exception Handling
+
+PlayWright
+
+public:You can re-use at Same file different classes and different file also 
+private:Same file and same class
+protected:Same file same class and child class.
+
+4 Pilers of OOPS Concepts:
+----------
+1.Inheritance
+2.Polymorphism
+3.Data Abstraction
+4.Encapsulation
+
+Inheritance:Re-Usability:One Body/statements can re-use multiple places.
+
+Child class inherited the properties or features of Parent class. 
+
+Trainer[Parent]:Have Playwright Knowledge
+Childs:Who required the parent properties.
+
+Child's acquire the properties from parent class.
+
+Parent/Base/Super 
+
+Child/Derived/Sub 
+
+Child Class extends Parent Class 
+
+IS-A 
+Car is-a Vehicle
+Lorry is-a Vehicle
+
+Parent:Common Properties 100TC  Open URL Close 
+Child:
+Types of Inheritance:
+----------------
+1.Single Level:One Parent and One Child 
+2.Multi Level:Child->Parent/Child->Parent 
+3.Hierarchical 
+4.Multiple 
+5.Hybrid
+

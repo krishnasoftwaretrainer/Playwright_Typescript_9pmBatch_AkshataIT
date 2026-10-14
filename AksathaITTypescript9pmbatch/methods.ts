@@ -1,4 +1,4 @@
-class calculator
+export class calculator
 {
     public addition():void  //Method-1
     {
@@ -7,11 +7,24 @@ class calculator
         console.log(`Sum:${sum}`);
     }
 
-     public subtraction():void //Method-2
+//      private subtraction():void //Method-2
+//     {
+//         let a:number=20,b:number=10;
+//         let sub:number=a-b;
+//         console.log(`Sub:${sub}`);
+//     }
+// }
+
+    private subtraction():void //Method-2
     {
         let a:number=20,b:number=10;
         let sub:number=a-b;
         console.log(`Sub:${sub}`);
+    }
+
+    public useSubtraction():void
+    {
+        this.subtraction();
     }
 }
 
@@ -20,7 +33,7 @@ class calculator
 // cal.addition();
 // cal.subtraction();
 
-class calculator1
+export class calculator1
 {
     //+ - * 
     public multiplication():void  //Method-1
@@ -31,9 +44,10 @@ class calculator1
     }
 }
 
-let cal=new calculator();
-cal.addition();
-cal.subtraction();
+// let cal=new calculator();
+// cal.addition();
+// //cal.subtraction();
+// cal.useSubtraction();
 
-let cal1=new calculator1();
-cal1.multiplication();
+// let cal1=new calculator1();
+// cal1.multiplication();
