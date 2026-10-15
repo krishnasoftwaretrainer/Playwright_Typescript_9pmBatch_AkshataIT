@@ -726,4 +726,39 @@ Types of Inheritance:
 3.Hierarchical 
 4.Multiple 
 5.Hybrid
+Inheritance:Re-Usability:One Body/statements can re-use multiple places.
 
+Child class inherited the properties or features of Parent class. 
+
+Trainer[Parent]:Have Playwright Knowledge
+Childs:Who required the parent properties.
+
+Child's acquire the properties from parent class.
+
+Parent/Base/Super 
+
+Child/Derived/Sub 
+
+Child Class extends Parent Class 
+
+IS-A 
+Car is-a Vehicle
+Lorry is-a Vehicle
+
+Parent:Common Properties 100TC  Open URL Close 
+Child:
+Types of Inheritance:
+----------------
+1.Single Level:One Parent and One Child 
+2.Multi Level:Child->Parent/Child->Parent 
+3.Hierarchical:Child1 Child2 Child3->Parent  
+4.Multiple:
+5.Hybrid
+
+Polymorphism in TS:
+-----------------
+Poly:Many 
+Morphism:Forms 
+
+1.CompileTime or Static:Method OverLoading
+2.RunTime or Dynamic:Method OverRiding 
