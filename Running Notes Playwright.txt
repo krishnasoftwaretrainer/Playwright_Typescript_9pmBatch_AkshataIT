@@ -762,3 +762,29 @@ Morphism:Forms
 
 1.CompileTime or Static:Method OverLoading
 2.RunTime or Dynamic:Method OverRiding 
+
+Polymorphism in TS:
+-----------------
+Poly:Many 
+Morphism:Forms 
+
+1.CompileTime or Static:Method OverLoading
+2.RunTime or Dynamic:Method OverRiding:Inheritance
+
+Parent:RBI:RateofIntrest:5%
+SBI extends RBI
+6% 7% 4%
+
+Data Abstraction:
+------------
+Child using Parent properties as it is:Inheritance
+Child overwrite the Parent properties:OverRiding
+
+Parent not implemented any thing, just they declare it.
+
+Implemented Methods:Normal method
+Un-Implemented Methods:abstract methods 
+
+Data abstraction achieve in 2ways:
+1.By using abstract keyword:0 to 100%
+2.By using interface:100% 
