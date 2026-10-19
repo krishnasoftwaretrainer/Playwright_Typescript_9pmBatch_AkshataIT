@@ -788,3 +788,31 @@ Un-Implemented Methods:abstract methods
 Data abstraction achieve in 2ways:
 1.By using abstract keyword:0 to 100%
 2.By using interface:100% 
+
+Normal class:Normal/Implemented Methods.
+abstract class:Implemented+Un-Implemented
+Interface Class:Only Un-Implemented[100%]
+
+1.To achieve 100% data abstraction.
+2.Multiple Inheritance:Single child inherites the features from multiple parents.
+
+Login:
+
+One Parent accepts the implemented and un-implemented methods:0 to 100%[Partial data abstraction]
+10Apps: 5Apps:Locked 5Apps:Open:Partial Security 
+App Lock 
+
+One Parent only accepts the un-implemented methods:100% or Pure data abstraction
+10Apps:Locked:Mobile Lock 
+
+Hiding Implementation 
+Hiding Data
+public abstract Login:void(); Hiding Implementation
+1.abstract class and abstract method
+2.interface class
+
+Encapsulation:getter and setter 
+private let pass:String="sfhsdkj"; Hide Data 
+class level access 
+
+Other class:Error[Not Visible]

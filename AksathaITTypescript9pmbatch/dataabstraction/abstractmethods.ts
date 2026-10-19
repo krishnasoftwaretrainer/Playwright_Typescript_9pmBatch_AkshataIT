@@ -30,7 +30,7 @@ public  rateofIntrest()
 }
     }
 
-    let sbi:SBI=new SBI();
+    let sbi=new SBI();
     sbi.rateofIntrest();
     sbi.BankTimings();
 
@@ -42,6 +42,6 @@ public  rateofIntrest()
 }
     }
 
-    let hdfc:HDFC=new HDFC();
+    let hdfc=new HDFC();
     hdfc.rateofIntrest();
     hdfc.BankTimings();
