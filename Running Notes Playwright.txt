@@ -816,3 +816,88 @@ private let pass:String="sfhsdkj"; Hide Data
 class level access 
 
 Other class:Error[Not Visible]
+============================
+Playwright with JavaScript/TypeScript:
+----------------------
+JavaScript/TypeScript:
+
+Playwright is Automation Testing Tool
+Regression Testing
+
+Role:ATE/SDET
+
+Re-Usability:WORM 
+Step1:Convert the manual test case into automation script[Write automation script]
+Step2:Run/Test the prepared automation script in Local machine.
+Step3:Push to github repo.
+Step4:Analysis the reports[Local/CI/CD]. 
+
+
+CI/CD:
+Desktop Web Mobile[.apk .ios] 
+Selenium:Functional and Web App:4G 
+Playwright:Functional and Web App:5G 
+
+50:50
+
+Playwright Environment Setup:
+--------------------
+Node JS[npm]
+Editor:VS Code 
+Playwright:Library[dir/Folder/Project]
+npm init playwright@latest 
+npm init playwright@latest
+Select JS/TS:Enter 
+tests:Enter
+Githubactions:NO or Enter
+Playwright default browsers:Enter
+
+Playwright have the rich documentation. 
+https://playwright.dev/docs/intro
+
+CLI:Command Line Interface:
+
+URL:Browser:Chrome Edge Firefox 
+Playwright have their own browsers:
+Chromium:Chrome+Edge Firefox Webkit:Safari 
+
+npx playwright test tests/example.spec.ts 
+npx playwright test tests/Sample.spec.ts 
+
+npx playwright test example.spec.ts 
+
+npx playwright test
+
+TC1:C E F 
+
+Run All Tests or Specific Test 
+Run All Browsers or Specific Browser
+Run Headed Mode or Headless Mode 
+Run Parallel or Sequential execution
+
+1.Run All Tests and All Browsers and Headless Mode and Parallel.
+2.Run All Tests and All Browsers and Headed Mode and Parallel.
+3.Run All Tests and All Browsers and Headed Mode and Sequential
+4.Run Specific Test and All Browsers and Headed Mode and Sequential[Using .only , .skip]
+5.Run Specific Test and Specific Browsers and Headed Mode and Sequential[Using config.ts]
+6.Run Specific Test and Specific Browsers and Headed Mode and Sequential[Using config.ts]
+7.Run Specific Test and Our Own Browsers and Headed Mode and Sequential[Using config.ts]
+
+By default:
+Headless and Parallel and All Browsers 
+3 Browsers 2 Tests:6Times
+
+To verify the report:  npx playwright show-report
+
+https://www.saucedemo.com/
+
+Open Browser
+Enter URL 
+Enter UserName
+Enter Password
+Click on Login Button
+Close Browser
+
+Fixture "browser" Chrome 
+Fixture "context" Profile 
+Fixture "page" Tab or Window 
