@@ -901,3 +901,38 @@ Close Browser
 Fixture "browser" Chrome 
 Fixture "context" Profile 
 Fixture "page" Tab or Window 
+
+Enter URL:[https://www.saucedemo.com/]
+Enter Valid UserName[standard_user]
+Enter Valid Password[secret_sauce]
+Click on Login Button
+Verify the Test Result[Compare Exp vs Act]
+
+Web Elements:
+Text Box:Enter Data:fill() type() 
+Text Area:Enter Data:fill() type() 
+Buttons:Click
+Links:Click 
+Radio Button:Check
+Check Box:Check 
+Drop Down:Select
+List Box:Select 
+
+Web Locators:
+------------
+1.Built-in Locators
+page.getByRole() 
+page.getByText()
+page.getByLabel()
+page.getByPlaceholder() 
+page.getByAltText()
+page.getByTitle() 
+page.getByTestId() 
+
+2.Generic Locators:CSS XPath
+
+Excepted vs Actual
+
+https://www.saucedemo.com/inventory.html
+
+Assignment: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
