@@ -930,9 +930,25 @@ page.getByTitle()
 page.getByTestId() 
 
 2.Generic Locators:CSS XPath
+CSS Selector:
+#id 
+.class 
+tagname 
+placeholder='value'
 
+XPath:
+-----
+Syntax://tagname[attribute='value']
+Syntax://tagname[text()='Value']
 Excepted vs Actual
 
 https://www.saucedemo.com/inventory.html
 
 Assignment: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+1 2 3 4
+first():1
+nth(1)
+last():4
+
+textContent():To get hidden text also
+innerText():To get visible text only 
