@@ -65,7 +65,7 @@ await page.waitForTimeout(2000);
 });
 
 //CSS Selector Locator
-test('CSS Selector Locator', async ({ page }) => {
+test.only('CSS Selector Locator', async ({ page }) => {
 await page.goto('https://www.saucedemo.com/');
 await page.waitForTimeout(2000);
 // await page.locator('#user-name').fill('secret_sauce'); //ID
@@ -74,10 +74,11 @@ await page.waitForTimeout(2000);
 //await page.locator('input').first().fill('secret_sauce'); //tagname
 await page.locator('[aria-label="Username"]').first().fill('secret_sauce'); //Attribute Value
 await page.waitForTimeout(2000);
+console.log(await page.locator('[aria-label="Username"]').inputValue());
 });
 
 //XPath Locator
-test.only('XPath Locator', async ({ page }) => {
+test('XPath Locator', async ({ page }) => {
 await page.goto('https://www.saucedemo.com/');
 await page.waitForTimeout(2000);
 //await page.locator('//input[@type="submit"]').click();
