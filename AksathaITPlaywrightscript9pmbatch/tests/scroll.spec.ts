@@ -33,17 +33,17 @@ await page.waitForTimeout(2000);
 await page.waitForTimeout(2000);
 });
 
-test.only('Scroll Page Specific Element', async ({ page }) => {
+test('Scroll Page Specific Element', async ({ page }) => {
     //Vertical[Up/Down] and Horizontal Scroll[Left/Right]
 
-await page.goto('https://demo.automationtesting.in/Register.htm');
+await page.goto('https://demo.automationtesting.in/Register.html');
 await page.waitForTimeout(2000);
 const submitButton = page.getByRole('button', { name: 'Submi' });
 await submitButton.scrollIntoViewIfNeeded();
 await page.waitForTimeout(2000);
 });
 
-test('Scroll Page using Keyboard', async ({ page }) => {
+test.only('Scroll Page using Keyboard', async ({ page }) => {
     //Vertical[Up/Down] and Horizontal Scroll[Left/Right]
 
 await page.goto('https://demo.automationtesting.in/Register.html');
