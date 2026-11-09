@@ -7,7 +7,7 @@ test('Single Frame', async ({ page }) => {
   //Outer Frame
   const outerFrame = page.frameLocator('#singleframe');
   
-   const outerframetextbox=outerFrame.locator('//input[@type="text"]');
+   const outerframetextbox=outerFrame.locator('//inpu@type="text"]');
   outerframetextbox.fill('Krishna');
   await page.waitForTimeout(2000);
 });
@@ -24,6 +24,7 @@ test.only('Nested Frame', async ({ page }) => {
 
 const outerframetextbox=frame.locator('//input[@type="text"]');
 outerframetextbox.fill('Playwright');
+await expect(page).toHaveTitle('Krishna');
   
   await page.waitForTimeout(4000);
 });

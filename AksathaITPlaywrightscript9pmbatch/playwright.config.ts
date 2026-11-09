@@ -12,14 +12,17 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  //testDir: './tests',
+  // testDir: './DataDrivenFrameWork',
+  //timeout: 60000,
+    //retries: 3,
   /* Run tests in files in parallel */
   // fullyParallel: true,
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
+  retries: process.env.CI ? 0 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
@@ -28,17 +31,20 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
-    baseURL: 'https://playwright.dev/',
+    baseURL: 'https://www.saucedemo.com/',
 
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     headless:false,
-    trace: 'on-first-retry',
+    //trace: 'on-first-retry',
+    trace:'on',
+   //trace:'off',
     //screenshot: 'on',
     // screenshot:'off'
      //screenshot: 'only-on-failure',
     // screenshotpath: 'tests/screenshots'
     // video:'on',
+  
 
   },
 

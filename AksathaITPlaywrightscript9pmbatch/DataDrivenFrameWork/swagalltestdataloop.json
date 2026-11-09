@@ -1,0 +1,29 @@
+{
+  "testCases": [
+    {
+      "testName": "Valid login - SauceDemo",
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    {
+      "testName": "Invalid password - SauceDemo",
+      "username": "standard_user",
+      "password": "wrong_password"
+    },
+    {
+      "testName": "Invalid username - SauceDemo",
+      "username": "wrong_user",
+      "password": "secret_sauce"
+    },
+    {
+      "testName": "Empty username - SauceDemo",
+      "username": "",
+      "password": "secret_sauce"
+    },
+    {
+      "testName": "Empty password - SauceDemo",
+      "username": "standard_user",
+      "password": ""
+    }
+  ]
+}
