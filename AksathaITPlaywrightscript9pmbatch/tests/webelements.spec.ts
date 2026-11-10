@@ -1,23 +1,27 @@
 import { test, expect } from '@playwright/test';
 
-
-test('Button Click', async ({ page }) => {
+test.only('Button Click', async ({ page }) => {
 await page.goto('https://www.saucedemo.com/');
 await page.waitForTimeout(2000);
 await page.getByRole('button', { name: 'Login'}).click();
+const login=page.getByRole('button', { name: 'Login'});
+console.log(await login.textContent());
+console.log(await login.innerText());
 });
 
 test('Text Box Input:fill and type', async ({ page }) => {
 await page.goto('https://www.saucedemo.com/');
 await page.waitForTimeout(2000);
-await page.pause();
+//await page.pause();
 // await page.getByRole('textbox', { name: 'Username'}).fill('test data');
 // await page.getByRole('textbox', { name: 'Username'}).fill('standard_user');
 
-await page.getByRole('textbox', { name: 'Username'}).type('test data');
-await page.getByRole('textbox', { name: 'Username'}).clear();
+//await page.getByRole('textbox', { name: 'Username'}).type('test data');
+//await page.getByRole('textbox', { name: 'Username'}).clear();
 await page.getByRole('textbox', { name: 'Username'}).type('standard_user');
-
+console.log(await page.getByRole('textbox', { name: 'Username'}).inputValue());
+const username=page.getByRole('textbox', { name: 'Username'});
+console.log(await username.getAttribute('id'));
 await page.waitForTimeout(2000);
 });
 
@@ -84,7 +88,7 @@ await page.waitForTimeout(2000);
 
 });
 
-test.only('Drop Down', async ({ page }) => {
+test('Drop Down', async ({ page }) => {
 await page.goto('https://demo.automationtesting.in/Register.html');
 //await page.waitForTimeout(2000);
 

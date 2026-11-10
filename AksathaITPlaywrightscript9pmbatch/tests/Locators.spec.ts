@@ -85,6 +85,6 @@ await page.waitForTimeout(2000);
 // const ttiletext=await page.locator('//div[text()="Swag Labs"]').textContent();
 const ttiletext=await page.locator('//div[text()="Swag Labs"]').innerText();
 console.log(ttiletext);
-await expect(ttiletext).toBe('Swag Labs');
+expect(ttiletext).toBe('Swag Labs');
 await page.waitForTimeout(2000);
 });
