@@ -1,0 +1,21 @@
+E2E Test1: login , add to cart, cart logo, check out , fill form , finish , backtohome, logout
+
+E2E Test2: login , add two products, cart logo, check out , fill form , finish , backtohome, logout
+
+E2E Test3: login , add two products, cart logo, remove one product, check out , fill form , finish , backtohome, logout
+
+E2E Test4: login , add product, cart logo, continue shopping, add another product, cart logo, check out , fill form , finish , backtohome, logout
+
+E2E Test5: login , select product, product details, add to cart, cart logo, check out , fill form , finish , backtohome, logout
+
+E2E Test6: login , sort products, add product, cart logo, check out , fill form , finish , backtohome, logout
+
+E2E Test7: login , add products, cart logo, verify products, check out , fill form , finish , backtohome, logout
+
+E2E Test8: login , add product, cart logo, check out , leave first name blank, verify error message, fill form, finish , backtohome, logout
+
+E2E Test9: login , add product, logout, login again, add product, cart logo, check out , fill form , finish , backtohome, logout
+
+E2E Test10: login with different user, add product, cart logo, check out , fill form , finish , backtohome, logout
+
+https://ecommerce-playground.lambdatest.io/index.php?route=account/register

@@ -952,3 +952,92 @@ last():4
 
 textContent():To get hidden text also
 innerText():To get visible text only 
+
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+
+for(let i=1;i<=10;i++)
+{
+console.log(i);
+}
+
+//tagname[text()="Desired Text"]
+//span[text()="Forgotten password?"]
+
+Video Recording:
+--------------
+on:
+off:
+retain-on-failure:
+on-first-retry:
+
+File Upload and Downlod:
+-----------------
+"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot (4).png"
+
+Web Tables:
+--------
+table 
+
+thead 
+tr 
+td 
+
+tbody
+tr 
+td 
+
+browser
+context
+page
+
+Data Driven FrameWork:
+--------------------
+Regression:URL TestData Locators
+Playwright Script:URL + Locators + TestData
+
+To store the test data into external file and using in our scripts.
+
+JSON:JavaScript Object Notation:API 
+Syntax:
+{
+"key":"Value",
+"key":"Value",
+"key":"Value",
+"key":"Value"
+}
+
+{
+"username":"standard_user",
+"password":"secret_sauce"
+}
+
+
+Excel: 
+
+CSV:Comma Separated Values 
+username,password
+standard_user,secret_sauce
+invaliduser,secret_sauce
+
+Hybrid FrameWork:BaseURL + TestData + Locators
+BaseURL:Config.ts 
+TestData:JSON or Excel:DataD Driven 
+Locators:Specific File:POM 
+
+Project:End-To-End Flow 
+------
+SwagLabs:E-Commerce:
+LoginPage 
+AddToCart
+Cart Page 
+CheckOut Page 
+Continue 
+Finish 
+Back Home 
+LogOut 
+
+npx playwright test 

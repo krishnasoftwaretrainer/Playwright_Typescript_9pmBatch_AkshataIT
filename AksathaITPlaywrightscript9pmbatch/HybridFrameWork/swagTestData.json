@@ -1,0 +1,12 @@
+{
+  "login": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+
+  "yourInfo": {
+    "firstName": "Krishna",
+    "lastName": "Trainer",
+    "zipCode": "500001"
+  }
+}
