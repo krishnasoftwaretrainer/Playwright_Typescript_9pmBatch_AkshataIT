@@ -1,0 +1,207 @@
+GIT COMMANDS
+----------
+Step1:Create Local Folder
+
+Step2:Open Git and move to Local Folder 
+cd "D:\GIT and GITHUB\Sample"
+
+Step3:Check it is Git Repo or normal Folder
+$ ls -a
+./  ../		Normal Folder
+
+Step4: Convert to Git Repo
+git init
+
+Initialized empty Git repository in D:/GIT and GITHUB/Sample/.git/
+HP@DESKTOP-DCUKDOL MINGW64 /d/GIT and GITHUB/Sample (master)
+
+Step5:Check again
+$ ls -a
+./  ../  .git/ 		It shows .git means it is Git repository
+
+Step5:Check git status
+$ git status
+On branch master
+No commits yet
+nothing to commit (create/copy files and use "git add" to track)
+HP@DESKTOP-DCUKDOL MINGW64 /d/GIT and GITHUB/Sample (master)
+
+Step6:Create File in same folder then check status again
+$ git status
+On branch master
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        File1.html
+nothing added to commit but untracked files present (use "git add" to track)
+
+Step7:Add these Local file int Staging
+git add .   [Specific File git add <file-name>]
+
+Step8:Check status again
+$ git status
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   File1.html
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   File1.html
+Step9:Create new file into same Repo
+git add .
+
+Step10: Commit changes into Local Repo
+git commit -m "New Changes"
+[master (root-commit) 8c396a2] Two Files
+ 2 files changed, 2 insertions(+)
+ create mode 100644 File1.html
+ create mode 100644 File2.html
+Now push Local Repo to GitHub Repo
+
+Step11:Create GITHUB Account
+Configure Git User Info (one-time setup)
+Tell Git who you are — these details appear in commits.
+git config --global user.name "Your Name" [GITHUB UserName][QAKRISHNA]
+git config --global user.email your_email@example.com [GITHUB EMailID]
+Verify configuration:
+
+Step12: git config –-list
+user.name=krishnasoftwaretrainer
+user.email=krishnasoftwaretrainer@gmail.com
+
+Step13:Create Repository
+Check GITHUB Repo Status
+git remote -v 
+if it shows like
+origin https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git (fetch)
+origin https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git (push)
+you are in GITHUB Repo, if it shows blank
+
+Step14: Configure GitHub Repo to GIT
+git remote add origin https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git
+
+git remote add origin https://github.com/krishnasoftwaretrainer/AutomationTesting228_229Batch.git
+
+Step15: Verify it:
+git remote -v
+Shows like
+origin https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git (fetch)
+origin https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git (push)
+
+Step16: Push to GitHub
+
+git push -u origin master
+git push -u origin main
+
+Note: Of rejection Error here
+git pull origin master --allow-unrelated-histories
+
+Total 24 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git
+-------------------
+Push Files into Branch
+
+Step1: Create a New Branch
+Local Branch: Created and stored in your local repository
+Remote Branch: Stored on a remote server
+
+Step2: Switch to It
+git checkout -b newbranch  [your branch name]
+Switched to a new branch 'newbranch'
+
+Step3:Verify:
+git branch	[Lists only local branches]
+git branch -r	[Lists only remote-tracking branches]
+git branch -a 	[Lists all branches — both local and remote]
+
+You should see:
+$ git branch -a
+  app1
+  feature-login
+* kkk
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/newbranch
+  master
+
+Step4: Stage the File
+git add File4.html   Or add all changes:
+git add .
+
+Step4: Commit the Changes
+git commit -m "Added file to newbranch"
+
+[newbranch 3fd8f00] Added File into new branch
+ 1 file changed, 6 insertions(+)
+ create mode 100644 File4.html
+
+Step5: Push the New Branch to GitHub
+git push -u origin newbranch
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 288 bytes | 288.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/krishnasoftwaretrainer/IntershipGitHubAccount.git
+   1be476c..3fd8f00  newbranch -> newbranch
+branch 'newbranch' set up to track 'origin/newbranch'.
+---------------------
+Merge New Branch into Master (Optional)
+
+Step1: Switch Back to Master (Optional)
+git checkout master
+
+Step2: Merge New Branch into Master
+git merge newbranch
+
+Updating 1be476c..3fd8f00
+Fast-forward
+ File4.html | 6 ++++++
+ 1 file changed, 6 insertions(+)
+ create mode 100644 File4.html
+
+Step3: Check Files in Master
+$ ls		[You will see new added files]
+File1.html  File2.html  File3.html  File4.html
+
+Step4: If files are not visible in GitHub 
+Push updated master to GitHub:
+git push origin master
+
+Then you will see all merged files in GitHub master branch
+
+Step5: Switch Between Branches 
+git checkout newbranch
+ls	You will also see File4.html.
+
+Switch back:	git checkout master
+ls
+You will also see File4.html.
+
+File exists in both — because master moved forward.
+----------------------------
+Delete the Branch Locally
+git branch -d newbranch
+
+Deleted branch newbranch (was 3fd8f00).
+
+Pull the Code from GitHub Repo:
+------------------
+Step1:Open Git Bash in the Folder You Want to Clone Into
+[Create new folder or Use existing folder]
+Example: cd "/d/GIT and GITHUB/"
+
+Step2:Copy the GitHub Repository URL: https://github.com/krishnasoftwaretrainer/QT_COREJAVA_225BATCH.git
+
+Step3: 3. Clone the Repository
+git clone https://github.com/username/repository.git
+Cloning into 'SampleGIT'...
+
+Step4: Pull Latest Updates Later
+Once cloned, you can always pull new changes from the GitHub repo using:
+$ git pull 
+Already up to date.
