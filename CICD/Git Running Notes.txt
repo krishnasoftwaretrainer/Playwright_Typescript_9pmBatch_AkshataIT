@@ -1,0 +1,438 @@
+HP@KRISHNA-HP-LAPTOP UCRT64 ~
+$ cd "D:\SampleGit"
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit
+$ ls -a
+./  ../
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit
+$ git init
+Initialized empty Git repository in D:/SampleGit/.git/
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ ls -a
+./  ../  .git/
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be c
+ommitted)
+        Sample1.txt
+
+nothing added to commit but untracked files present (us
+e "git add" to track)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be c
+ommitted)
+        Sample1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Sampl2.txt
+        Sample1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ cd "D:\111111"
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/111111
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/111111
+$ cd "D:\SampleGit"
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Sampl2.txt
+        Sample1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git add .
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample1.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Sampl2.txt
+        modified:   Sample1.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample1.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Sampl2.txt
+        modified:   Sample1.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample1.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sampl2.txt
+        modified:   Sample1.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sampl2.txt
+        modified:   Sample1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Sample3.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sampl2.txt
+        modified:   Sample1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Sample3.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git add .
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+        new file:   Sample3.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sampl2.txt
+        new file:   Sample1.txt
+        new file:   Sample3.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample3.txt
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git commit -m "3Files"
+[master (root-commit) 650dffb] 3Files
+ 3 files changed, 5 insertions(+)
+ create mode 100644 Sampl2.txt
+ create mode 100644 Sample1.txt
+ create mode 100644 Sample3.txt
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample1.txt
+        modified:   Sample3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+:
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+user.name=QAKRISHNA
+user.email=krishnasoftwaretrainer@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+(END)
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+user.name=QAKRISHNA
+user.email=krishnasoftwaretrainer@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git remote -v
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git remote add origin https://github.com/krishnasoftwaretrainer/AkshataITGit.git
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git branch
+* master
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 355 bytes | 355.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/krishnasoftwaretrainer/AkshataITGit.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample1.txt
+        modified:   Sample3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git commit -m "3Files update"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Sample1.txt
+        modified:   Sample3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git add .
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git commit -m "3Files updates"
+[master cce20a2] 3Files updates
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 426 bytes | 426.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/krishnasoftwaretrainer/AkshataITGit.git
+   650dffb..cce20a2  master -> master
+branch 'master' set up to track 'origin/master'.
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$ ^C
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/SampleGit (master)
+$
